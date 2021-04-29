@@ -57,7 +57,7 @@ public class radio {
     }
 
     public void minusVolume() {
-        if (currentVolume <= minVolume) {
+        if (currentVolume == minVolume) {
             return;
         } else {
             this.currentVolume = currentVolume - 1;
