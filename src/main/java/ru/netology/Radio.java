@@ -1,6 +1,6 @@
 package ru.netology;
 
-public class radio {
+public class Radio {
     private int minStation;
     private int maxStation = 9;
     private int currentStation;
